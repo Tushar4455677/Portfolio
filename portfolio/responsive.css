@@ -1,0 +1,314 @@
+/* @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 0.5rem 10%;
+    }
+    
+    .navbar ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .navbar ul li {
+        margin-right: 0;
+        margin-top:20px;
+    }
+
+    .btn {
+        padding: 0.5rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    /* .cvbtn {
+        position: relative;
+        top: 450px;
+        right: 10%;
+        font-size: 1rem;
+    } */
+
+    .logo {
+        font-size: 2rem;
+    }
+
+
+/* For Mobile Devices (Portrait) */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0.5rem 8%;
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .navbar ul li {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 0.5rem 1.2rem;
+    }
+
+    /* .cvbtn {
+        position: relative;
+        top: 420px;
+        right: 5%;
+        font-size: 1rem;
+    } */
+}
+
+/* For Large Desktop Screens */
+@media (min-width: 1200px) {
+    .navbar {
+        padding: 0.5rem 17%;
+    }
+
+    /* .cvbtn {
+        top: 490px;
+        right: 18%;
+    } */
+} 
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .tushar-image img {
+        margin: 0;
+        height: 200px;
+        width: 200px;
+        margin-left:40px;
+    }
+
+    .hero-content {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        margin-left: 30px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .social-icons a {
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+        margin: 0 15px;
+    }
+
+    .btnn, .btnnn {
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+
+    .btnn, .btnnn {
+        position: relative;
+        top: 20px;
+        right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-container {
+        padding: 1rem;
+    }
+
+    .tushar-image img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+        font-size: 1.8rem;
+    }
+
+    .btnn, .btnnn {
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+
+    .btnn, .btnnn {
+        position: relative;
+        top: 20px;
+        right: 0;
+    }
+}
+@media (max-width: 768px) {
+    .stats {
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top:500px;
+        margin-top:600px;
+    }
+    
+    .stats .stat {
+        min-width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .stats .stat:not(:last-child) {
+        border-right: none;
+    }
+    
+    .stats .stat h2 {
+        font-size: 2rem;
+    }
+    
+    .stats .stat span {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        grid-template-columns: 1fr; /* Stack the columns vertically */
+        padding: 0 5%;
+        top: 12000px;
+        position:absolute;
+        margin-top: 1100px; /* Adjust the top margin for smaller screens */
+    }
+
+    .about-img {
+        max-width: 500px; /* Reduce the image size */
+        width: 60%;
+        top: 2000px;
+        position: absolute; /* Adjust width for smaller screens */
+    }
+    .stats .stat h2 {
+        font-size: 1.8rem;
+    }
+
+    .stats .stat span {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .about {
+        grid-template-columns: 1fr; /* Stack the columns vertically */
+        padding: 0 5%;
+        top: 2000px;
+        position:absolute; /* Adjust the top margin for smaller screens */
+    }
+
+    .about-img {
+        max-width: 500px; /* Reduce the image size */
+        width: 60%;
+        top: 2000px;
+        position: absolute; /* Adjust width for smaller screens */
+    }
+
+    .about-text h2 {
+        font-size: 45px; /* Reduce heading size */
+    }
+
+    .about-text h4 {
+        font-size: 24px; /* Reduce subheading size */
+    }
+
+    .about-text p {
+        font-size: 18px;
+        text-align: center; /* Reduce paragraph font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 0 2%; /* Adjust padding for very small screens */
+        top: 450px; /* Adjust the top position */
+    }
+
+    .about-img {
+        max-width: 400px; /* Reduce the image size further */
+        width: 80%; /* Adjust width */
+    }
+
+    .about-text h2 {
+        font-size: 35px; /* Further reduce heading size */
+    }
+
+    .about-text h4 {
+        font-size: 20px; /* Further reduce subheading size */
+    }
+
+    .about-text p {
+        font-size: 16px; /* Further reduce paragraph font size */
+    }
+}
+@media (max-width: 480px) {
+    #services {
+        padding: 0 2%;
+        top: 850px;
+        flex-direction: column;
+        margin-top: 700px;
+        align-items: center;
+        /* Adjust positioning for small screens */
+    }
+
+    .sub-title {
+        font-size: 35px;
+        margin-top: 10px;
+        text-align: center; /* Further reduce title size */
+    }
+
+    .services-list {
+        grid-template-columns: 1fr; 
+        flex-direction: row-reverse;
+        justify-content: space-between;/* Single column layout on very small screens */
+    }
+
+    .services-list div {
+        width: 100%;
+        padding: 20px; 
+        flex-direction: row;
+        justify-content: space-between;/* Further reduce padding */
+    }
+
+    .services-list div h2 {
+        font-size: 22px; /* Further reduce heading size */
+    }
+
+    .passionate {
+        font-size: 16px; /* Smaller description font size */
+    }
+}
